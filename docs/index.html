@@ -5,16 +5,15 @@
 <title>YoungBat</title> 
 </head>
 <body>
-
 <h1> YoungBat</h1>
-
+<p id = time> Click button to display time. </p>
 
 <script>
 function myFunction()
 {
 	var myDate = new Date();
   var mytime=myDate.toLocaleTimeString();
-  document.write(mytime);
+  document.write("<p id = time> mytime </p>");
 }
 </script>
 
