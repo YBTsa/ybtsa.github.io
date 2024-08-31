@@ -3,7 +3,7 @@
 <head> 
 <meta charset="utf-8"> 
 <title>YoungBat</title> 
-<link rel="shortcut icon" type="image/x-icon" href="./icon.ico">
+<link rel="favicon" type="image/x-icon" href="./favicon.ico">
 </head>
 <body>
 <h1> YoungBat</h1>
@@ -11,12 +11,12 @@
 function show(){ 
 var date = new Date();
 var now = ""; 
-now = date.getFullYear()+"年";
-now = now + (date.getMonth()+1)+"月"; 
-now = now + date.getDate()+"日"; 
-now = now + date.getHours()+"时"; 
-now = now + date.getMinutes()+"分"; 
-now = now + date.getSeconds()+"秒"; 
+now = date.getFullYear()+"year,";
+now = now + (date.getMonth()+1)+"month,"; 
+now = now + date.getDate()+"day,"; 
+now = now + date.getHours()+"hour,"; 
+now = now + date.getMinutes()+"minute,"; 
+now = now + date.getSeconds()+"second"; 
 document.getElementById("nowDiv").innerHTML = now; 
 setTimeout("show()",1000);
 } 
