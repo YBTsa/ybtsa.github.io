@@ -1,3 +1,8 @@
+---
+slug: /
+sidebar_position: 1
+sidebar_label: Intro
+---
 # Download Center
 
 Download menu:
