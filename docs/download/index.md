@@ -1,10 +1,6 @@
----
-slug: /
-sidebar_position: 1
-sidebar_label: Intro
----
+=====================
 # Download Center
-
+=====================
 Download menu:
 
 1.Cleanmgr-v3.0.0,link:
