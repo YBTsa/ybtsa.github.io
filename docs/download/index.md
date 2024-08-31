@@ -5,7 +5,7 @@ Download menu:
 .
 
 2.IS,link:
-<***https://www.github.com/YBTsa/IS***>
+***<https://www.github.com/YBTsa/IS>***
 .
 
 3.YConsole,link:
