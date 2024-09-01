@@ -1,5 +1,3 @@
-# YoungBat
-
 ***[Download Center](https://youngbat.us.kg/download)***
 
 <script>
