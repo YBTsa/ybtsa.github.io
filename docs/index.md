@@ -1,5 +1,7 @@
 ***[Download Center](https://youngbat.us.kg/download)***
 
+
+<div id = nowDiv>
 <script>
   function show(){ 
 var date = new Date();
@@ -41,8 +43,5 @@ now = month + " " + year + "," + hour + ":" + minute + ":" + second;
 document.getElementById("nowDiv").innerHTML = now; 
 setTimeout("show()",1000);
 </script>
-<body>
-  <body onload="show()">
-  <div id="nowDiv"></div>
-</body>
+</div>
 
