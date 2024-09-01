@@ -1,0 +1,50 @@
+# YoungBat
+
+***[Download Center](https://youngbat.us.kg/download)***
+
+<script>
+  function show(){ 
+var date = new Date();
+var now = ""; 
+var year = date.getFullYear();
+var month = (date.getMonth()+1);
+var day = date.getDate();
+var hour = date.getHours();
+var minute = date.getMinutes();
+var second = date.getSeconds();
+switch(month){
+  case 1:month="January";
+    break;
+  case 2:month="February";
+    break;
+  case 3:month="March";
+    break;
+  case 4:month="April";
+    break;
+  case 5:month="May";
+    break;
+  case 6:month="June";
+    break;
+  case 7:month="July";
+    break;
+  case 8:month="August";
+    break;
+  case 9:month="September";
+    break;
+  case 10:month="October";
+    break;
+  case 11:month="November";
+    break;
+  case 12:month="December";
+    break;
+}
+now = month + " " + year + "," + hour + ":" + minute + ":" + second;
+
+document.getElementById("nowDiv").innerHTML = now; 
+setTimeout("show()",1000);
+</script>
+<body>
+  <body onload="show()">
+  <div id="nowDiv"></div>
+</body>
+
