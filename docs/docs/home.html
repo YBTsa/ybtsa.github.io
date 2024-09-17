@@ -18,17 +18,6 @@
 {"@context":"https://schema.org","@type":"WebPage","headline":"YoungBat Learn","url":"http://youngbat.us.kg/docs/home.html"}</script>
 <link rel="stylesheet" href="/assets/css/style.css?v=c9fbe9eedddf5afb3b797ea9acfeadb008975f2f">
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script>
-        function loadMarkdownFile() {
-            fetch('example.md')
-                .then(response => response.text())
-                .then(markdown => {
-                    const html = marked(markdown);
-                    document.getElementById('markdown-content').innerHTML = html;
-                });
-        }
-    </script>
 </head>
     <body onload="loadMarkdownFile()">
     <div id="markdown-content"></div>
