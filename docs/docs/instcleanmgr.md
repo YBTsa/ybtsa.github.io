@@ -8,11 +8,5 @@ Once the installer is over, you'll be able to run Cleanmgr!
 
 
 ### For more information, please visit [https://youngbat.us.kg/docs/home](https://youngbat.us.kg/docs/home)
-|Good!|Good!|Good!|
-|----|----|----|
-|Good!|Good!|Good!|
-|Good!|Good!|Good!|
-|Good!|Good!|Good!|
-|Good!|Good!|Good!|
 
 ___(C) 2024 YoungBat,Inc.___
